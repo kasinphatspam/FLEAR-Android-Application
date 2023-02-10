@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "906570022638",
+    "firebase_url": "https://flear-fcac0.firebaseio.com",
+    "project_id": "flear-fcac0",
+    "storage_bucket": "flear-fcac0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906570022638:android:c972efdc2b773609",
+        "android_client_info": {
+          "package_name": "com.smartrefrig.flear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906570022638-9i1rph3tea6ejbkc5r95lrimoiegi1nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartrefrig.flear",
+            "certificate_hash": "910cc35def839b6dc982e9a9fd1cac455dfe073e"
+          }
+        },
+        {
+          "client_id": "906570022638-qii157p0f5taq5u51pu300j0k8j9l45n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgisaUk7pw8mlA1P9PEtDh1ObiZn1drvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906570022638-qii157p0f5taq5u51pu300j0k8j9l45n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

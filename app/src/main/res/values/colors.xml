@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3D89</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blackGray">#191919</color>
+    <color name="blackGray2">#242424</color>
+    <color name="gray_slide_bar">#E7E6E6</color>
+    <color name="white2">#ECEBEB</color>
+    <color name="white3">#F7F6F6</color>
+    <color name="gray">#ADACAC</color>
+    <color name="defaultBackground">#F9F9F9</color>
+    <color name="pink">#FF3D89</color>
+    <color name="blackTransparent">#40000000</color>
+    <color name="blue">#1D6DF5</color>
+    <color name="blue2">#1375F0</color>
+    <color name="red">#FD2B4A</color>
+    <color name="blue3">#7052ACFF</color>
+    <color name="background_opacity">#05000000</color>
+</resources>

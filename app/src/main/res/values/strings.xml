@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Flear</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="gps_status_enabled">"GPS is Enabled"</string>
+    <string name="gps_status_disabled">"GPS is Disabled"</string>
+    <string name="sub">กรุณากรอกข้อมูลให้ครบถ้วน</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="add_new_location">Add new location</string>
+    <string name="location_list">Locations</string>
+    <string name="need_location_permission_message">You need to enable location permissions first</string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">EnabledSetting</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_geofences">Enable Geofences</string>
+    <string name="privacy">http://www.google.com/policies/privacy</string>
+    <string name="ringer_permissions">Ringer Permissions</string>
+    <string name="silent_mode_activated">Silent mode activated</string>
+    <string name="touch_to_relaunch">Touch to launch the app.</string>
+    <string name="back_to_normal">Back to normal</string>
+</resources>

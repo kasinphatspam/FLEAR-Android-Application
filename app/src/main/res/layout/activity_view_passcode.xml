@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".family.ViewPasscodeActivity"
+        android:background="@color/white">
+
+    <ImageButton
+            android:id="@+id/cancelImageButton"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_close_black_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="พาสโค้ดครอบครัว"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/prompt_bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/textView14"/>
+
+    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:corner_radius="12dp"
+            android:background="@color/blue2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            android:id="@+id/roundKornerRelativeLayout4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Family Name"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/prompt_bold"
+                    android:textSize="18dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="24dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/familyNameTextView"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PASSCODE:"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/prompt_medium"
+                    android:textSize="16dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="24dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/familyNameTextView"
+                    android:id="@+id/textView16"/>
+
+            <TextView
+                    android:id="@+id/passcodeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00000"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/prompt_medium"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/familyNameTextView"
+                    app:layout_constraintStart_toEndOf="@+id/textView16"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="คัดลอกพาสโค้ด"
+            android:drawableLeft="@drawable/ic_content_copy_black_24dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/prompt_medium"
+            android:textSize="16dp"
+            android:drawablePadding="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/roundKornerRelativeLayout4"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/copyTextView"/>
+
+    <TextView
+            android:id="@+id/passwordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่ารหัสผ่าน"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/prompt_medium"
+            android:textSize="16dp"
+            android:drawablePadding="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/copyTextView"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

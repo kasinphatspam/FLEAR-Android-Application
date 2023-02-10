@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="โปรไฟล์ของคุณ"
+            android:icon="@drawable/ic_person_black_24dp"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="เกี่ยวกับเรา"
+            android:icon="@drawable/ic_error_black_24dp"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="ตั้งค่า"
+            android:icon="@drawable/ic_settings_black_24dp"/>
+        <item
+            android:id="@+id/nav_signout"
+            android:title="ออกจากระบบ"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+</menu>
